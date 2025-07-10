@@ -31,6 +31,12 @@ main section {
   line-height: 150%;
   font-weight: 700;
   cursor: pointer;
+  transition: all ease-in 200ms;
+}
+.accent-btn:hover {
+    scale: 1.05;
+    background-color: rgb(255, 170, 0);
+    color: #000;
 }
 .brief-description {
   font-size: 24px;
@@ -186,6 +192,7 @@ nav {
 
 /* Section 4: Let's Get in Touch */
 .get-in-touch {
+    height: 632px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,7 +216,7 @@ nav {
     display: block;
     width: 100%;
     padding: 20px 32px;
-    margin: 10px 0;
+    margin-top: 10px;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: 150%;
@@ -217,4 +224,48 @@ nav {
     border: 1px solid #D6DDED;
     border-radius: 10px;
     resize: none;
+}
+
+/* Footer */
+footer {
+    height: 428px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+footer p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #8987A1;
+    width: 531px;
+}
+footer h1 {
+    margin: 0;
+}
+footer ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+footer ul a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #8987A1;
+    transition: all ease-in-out 150ms;
+}
+footer ul a:hover {
+    color: #4e47ff;
+}
+.footer-logo {
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    color: #4e47ff;
+    font-weight: 900;
 }
