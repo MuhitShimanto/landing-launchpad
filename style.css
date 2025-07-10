@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -181,4 +182,39 @@ nav {
 }
 .feedback-user p {
     margin: 0;
+}
+
+/* Section 4: Let's Get in Touch */
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-in-touch h1 {
+    font-size: 97px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 528px;
+}
+.get-in-touch form {
+    width: 497px;
+}
+.get-in-touch form label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 500;
+}
+.get-in-touch form input,textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin: 10px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    outline: none;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    resize: none;
 }
