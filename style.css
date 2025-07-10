@@ -42,6 +42,7 @@ main section {
   font-size: 24px;
   line-height: 30px;
   color: rgba(37, 36, 50, 0.5);
+  margin: 0;
 }
 
 /* Header */
@@ -77,6 +78,7 @@ nav {
 .see-it-in-action {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .action-description {
   width: 517px;
@@ -88,6 +90,7 @@ nav {
   font-weight: 700;
   font-size: 42px;
   color: #252432;
+  margin: 0;
 }
 .action-image {
   width: 403px;
@@ -139,6 +142,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #F2EDED;
     padding: 24px;
+    width: 366px;
 }
 .feedback-card-title {
     font-family: "Inter", sans-serif;
