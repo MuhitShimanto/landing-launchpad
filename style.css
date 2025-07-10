@@ -6,6 +6,7 @@
 }
 body {
   margin: 0;
+  background-color: #F5F8FF;
 }
 main section {
   margin-top: 116px;
@@ -120,4 +121,64 @@ nav {
   display: flex;
   gap: 158px;
   justify-content: center;
+}
+
+/* Section 3: Users Feedback */
+.feedback-container {
+    display: flex;
+    gap: 20px;
+}
+.feedback-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #F2EDED;
+    padding: 24px;
+}
+.feedback-card-title {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.feedback-card-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1E1E1E;
+
+}
+.users-feedback h2 {
+    text-align: center;
+  font-weight: 600;
+  font-size: 42px;
+  color: #252432;
+}
+.star-rating {
+    display: flex;
+    gap: 4px;
+}
+.feedback-user-detail-container {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+
+}
+.feedback-user-detail-container img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.feedback-user-name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+}
+.feedback-user-date {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.feedback-user p {
+    margin: 0;
 }
