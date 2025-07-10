@@ -1,0 +1,123 @@
+* {
+  font-family: "Raleway", "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+main section {
+  margin-top: 116px;
+}
+
+/* Shared Class */
+
+.center-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.accent-btn {
+  height: fit-content;
+  width: fit-content;
+  color: #fff;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 36px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  cursor: pointer;
+}
+.brief-description {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+/* Header */
+header {
+  height: 698px;
+  background-image: url("./Assets/Hero-bg.png");
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50 0px;
+}
+#header-logo {
+  color: #4e47ff;
+  line-height: 150%;
+  font-size: 34px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+.banner {
+  text-align: center;
+  margin-top: 158px;
+}
+#landing-title {
+  font-size: 65px;
+  font-weight: 900;
+  color: #252432;
+}
+
+/* Section 1: See it in Action */
+.see-it-in-action {
+  display: flex;
+  justify-content: space-between;
+}
+.action-description {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.action-description h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+}
+.action-image {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+.productive-users {
+  background-color: rgba(78, 71, 255, 0.1);
+}
+
+/* Section 2: Productive Users */
+.productive-users {
+  padding: 50px 142px;
+  border-radius: 24px;
+}
+.productive-users h2 {
+  color: #252432;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+.user-count {
+  text-align: center;
+}
+.user-count h2 {
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+}
+.user-count p {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.user-count-container {
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+}
