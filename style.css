@@ -143,6 +143,7 @@ nav {
     border: 1px solid #F2EDED;
     padding: 24px;
     width: 366px;
+    border-radius: 10px;
 }
 .feedback-card-title {
     font-family: "Inter", sans-serif;
